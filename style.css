@@ -1,0 +1,96 @@
+* {
+    background-color: rgb(37, 50, 70);
+}
+
+#main-text {
+    position: relative;
+    left: 520px;
+    top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    width: 400px;
+    color: #fafafa;
+}
+
+.time-text {
+    position: relative;
+    left: 530px;
+    top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    width: 300px;
+    height: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+.full, .date, .time {
+    position: relative;
+    left: 640px;
+    top: 87px;
+    border: none;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+
+.time {
+    position: relative;
+    left: 362px;
+    background-color: rgb(66, 138, 60);
+    color: #fafafa;
+}
+
+.date {
+    position: relative;
+    left: 662px;
+    background-color: rgb(31, 127, 172);
+    color: #fafafa;
+}
+
+.full {
+    background-color: rgb(173, 49, 49);
+    color: #fafafa;
+}
+
+.date:hover {
+    background-color: rgb(26, 26, 26);
+    color: rgb(31, 127, 172);
+    cursor: pointer;
+}
+
+.time:hover {
+    background-color: rgb(26, 26, 26);
+    color: rgb(66, 138, 60);
+    cursor: pointer;
+}
+
+.full:hover {
+    background-color: rgb(26, 26, 26);
+    color: rgb(173, 49, 49);
+    cursor: pointer;
+}
+
+#main-text:hover {
+    cursor: default;
+    color: #f36262;
+    transition: 200ms;
+    transform: translate(0,-10px);
+}
+
+.date, .full, .time, #main-text {
+    transition: 200ms;
+}
+
+.date:hover, .full:hover, .time:hover {
+    transition: 200ms;
+}
+
+.date:active, .full:active, .time:active{
+    cursor:none;
+    background-color: black;
+}
